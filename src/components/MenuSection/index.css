@@ -1,0 +1,25 @@
+body{
+	font-family: "Flame Bold";
+}
+.upper-section{
+    background: var(--burgerKing-secondary);
+    height: 280px;
+}
+h1{
+    color: var(--burgerKing-white);
+    padding-top: 7rem;
+    font-size: 3.5rem;
+}
+.card{
+    border-radius: 1rem;
+    text-align: center;
+    font-family: Flame, "Cooper Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 1.375rem;
+}
+.card > img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
