@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<BrowserRouter>
 		<Routes>
-			<Route path="https://burger-king-clone-design.netlify.app/" element={<App />} />
+			<Route path="*" element={<App />} />
 		</Routes>
 	</BrowserRouter>
 );
