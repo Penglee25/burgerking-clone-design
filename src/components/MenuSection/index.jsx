@@ -55,7 +55,7 @@ export default function index() {
 			<Container>
 				{daytime && (
 					<div className="daytime">
-						<div className="row mt-4">
+						<div className="row my-4">
 							{menu.map((data) => {
 								return (
 									<div className="col-lg-4 mt-3">
@@ -75,7 +75,7 @@ export default function index() {
 
 				{breakfast && (
 					<div className="breakfast">
-						<div className="row mt-4">
+						<div className="row my-4">
 							{breakfastMenu.map((data) => {
 								return (
 									<div className="col-lg-4 mt-3">

@@ -1,0 +1,38 @@
+body{
+	font-family: "Flame";
+}
+.offer-section{
+    background: #D62300;
+    height: 180px;
+}
+.offer-section h2{
+    color: var(--burgerKing-white);
+    font-size: 2rem;
+    padding-top: 7rem;
+}
+.delivery{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(80, 35, 20);
+    cursor: pointer;
+    height: 48px;
+    margin-right: -1px;
+    padding: 0px 16px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    box-sizing: content-box;
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link{
+    color: #D62300;
+}
+.search{
+    height: 48px;
+    padding: 0px 16px;
+}
+.delivery:focus{
+    border: none;
+}
